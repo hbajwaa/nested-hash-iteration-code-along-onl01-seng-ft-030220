@@ -14,7 +14,7 @@ require 'pry'
   #   }
   # }
   
-
+#contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift                 deleting directly
 def remove_strawberry(contacts)
 
   contacts.each do |name, data| 
